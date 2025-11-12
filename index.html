@@ -16,15 +16,13 @@
     <nav class="navbar" id="navbar">
         <div class="container">
             <div class="nav-brand">
-                <i class="fas fa-code"></i>
-                <span>Portfolio</span>
+                <a href="https://www.linkedin.com/in/vamshi-singam-82963556/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
             </div>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link active">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#projects" class="nav-link active">Projects</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="nav-toggle" id="navToggle">
                 <span></span>
@@ -34,130 +32,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="gradient-overlay"></div>
-            <div class="particles" id="particles"></div>
-        </div>
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title">
-                    <span class="greeting">Hello, I'm</span>
-                    <span class="name">Your Name</span>
-                </h1>
-                <p class="hero-subtitle">Full Stack Developer & Creative Problem Solver</p>
-                <p class="hero-description">
-                    Crafting elegant solutions to complex problems with modern technologies
-                </p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">
-                        <span>View My Work</span>
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <span>Get In Touch</span>
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-                <div class="social-links">
-                    <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="mailto:your.email@example.com" class="social-link" aria-label="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="image-wrapper">
-                    <div class="image-placeholder">
-                        <i class="fas fa-user-circle"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="scroll-indicator">
-            <span>Scroll Down</span>
-            <i class="fas fa-chevron-down"></i>
-        </div>
-    </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">Get To Know Me</span>
-                <h2 class="section-title">About Me</h2>
-                <div class="section-divider"></div>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Passionate Developer & Lifelong Learner</h3>
-                    <p>
-                        I'm a dedicated software developer with a passion for creating innovative solutions 
-                        that make a difference. With expertise in modern web technologies and a keen eye for 
-                        design, I transform ideas into reality.
-                    </p>
-                    <p>
-                        My journey in software development has equipped me with a diverse skill set and the 
-                        ability to adapt to new challenges. I believe in writing clean, maintainable code 
-                        and following best practices to deliver exceptional results.
-                    </p>
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="50">0</span>
-                            <span class="stat-label">Projects Completed</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="5">0</span>
-                            <span class="stat-label">Years Experience</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number" data-target="100">0</span>
-                            <span class="stat-label">Happy Clients</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-features">
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-lightbulb"></i>
-                        </div>
-                        <h4>Creative Solutions</h4>
-                        <p>Innovative approaches to solve complex problems efficiently</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-rocket"></i>
-                        </div>
-                        <h4>Fast Performance</h4>
-                        <p>Optimized code for lightning-fast user experiences</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <h4>Responsive Design</h4>
-                        <p>Beautiful interfaces that work seamlessly on all devices</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-shield-alt"></i>
-                        </div>
-                        <h4>Secure & Reliable</h4>
-                        <p>Built with security best practices and robust architecture</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
@@ -166,12 +41,6 @@
                 <span class="section-label">My Work</span>
                 <h2 class="section-title">Featured Projects</h2>
                 <div class="section-divider"></div>
-            </div>
-            <div class="projects-filter">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="ai">AI Agents</button>
-                <button class="filter-btn" data-filter="web">Web Apps</button>
-                <button class="filter-btn" data-filter="automation">Automation</button>
             </div>
             <div class="projects-grid">
                 <div class="project-card" data-category="ai">
@@ -387,103 +256,6 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">Let's Connect</span>
-                <h2 class="section-title">Get In Touch</h2>
-                <div class="section-divider"></div>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's work together</h3>
-                    <p>
-                        I'm always interested in hearing about new projects and opportunities. 
-                        Whether you have a question or just want to say hi, feel free to reach out!
-                    </p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <div>
-                                <h4>Email</h4>
-                                <a href="mailto:your.email@example.com">your.email@example.com</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <div>
-                                <h4>Phone</h4>
-                                <a href="tel:+1234567890">+1 (234) 567-890</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
-                                <h4>Location</h4>
-                                <p>Your City, Country</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">
-                        <span>Send Message</span>
-                        <i class="fas fa-paper-plane"></i>
-                    </button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <i class="fas fa-code"></i>
-                    <span>Portfolio</span>
-                </div>
-                <p class="footer-text">
-                    Designed & Built with <i class="fas fa-heart"></i> by Your Name
-                </p>
-                <div class="footer-social">
-                    <a href="https://github.com" target="_blank" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="mailto:your.email@example.com" aria-label="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Your Name. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Back to Top Button -->
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
 
     <script src="script.js"></script>
 </body>
