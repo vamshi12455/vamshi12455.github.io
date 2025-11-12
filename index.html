@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio & GitHub Projects Showcase">
+    <title>Professional Portfolio | GitHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-code"></i>
+                <span>Portfolio</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+            <div class="particles" id="particles"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Your Name</span>
+                </h1>
+                <p class="hero-subtitle">Full Stack Developer & Creative Problem Solver</p>
+                <p class="hero-description">
+                    Crafting elegant solutions to complex problems with modern technologies
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="mailto:your.email@example.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get To Know Me</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Passionate Developer & Lifelong Learner</h3>
+                    <p>
+                        I'm a dedicated software developer with a passion for creating innovative solutions 
+                        that make a difference. With expertise in modern web technologies and a keen eye for 
+                        design, I transform ideas into reality.
+                    </p>
+                    <p>
+                        My journey in software development has equipped me with a diverse skill set and the 
+                        ability to adapt to new challenges. I believe in writing clean, maintainable code 
+                        and following best practices to deliver exceptional results.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="50">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="100">0</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4>Creative Solutions</h4>
+                        <p>Innovative approaches to solve complex problems efficiently</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4>Fast Performance</h4>
+                        <p>Optimized code for lightning-fast user experiences</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>Responsive Design</h4>
+                        <p>Beautiful interfaces that work seamlessly on all devices</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Secure & Reliable</h4>
+                        <p>Built with security best practices and robust architecture</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">My Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai">AI Agents</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/vamshi12455/text-to-sql-agent" target="_blank" class="project-link" aria-label="View Project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/vamshi12455/text-to-sql-agent" target="_blank" class="project-link" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">LangChain</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">OpenAI</span>
+                        </div>
+                        <h3>Text to SQL Agent</h3>
+                        <p>AI-powered agent that converts natural language queries into SQL statements, enabling intuitive database interactions without SQL knowledge</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/vamshi12455/data-analysis-agent" target="_blank" class="project-link" aria-label="View Project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/vamshi12455/data-analysis-agent" target="_blank" class="project-link" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">Visualization</span>
+                        </div>
+                        <h3>Data Analysis Agent</h3>
+                        <p>Intelligent agent that performs automated data analysis, generates insights, and creates visualizations from raw datasets using AI</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/vamshi12455/ai-personal-assistant" target="_blank" class="project-link" aria-label="View Project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/vamshi12455/ai-personal-assistant" target="_blank" class="project-link" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">NLP</span>
+                            <span class="tag">Voice AI</span>
+                            <span class="tag">LLM</span>
+                        </div>
+                        <h3>Intelligent AI Personal Assistant</h3>
+                        <p>Advanced AI assistant with voice recognition, task automation, calendar management, and contextual understanding for daily productivity</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="automation">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/vamshi12455/email-assistant-agent" target="_blank" class="project-link" aria-label="View Project">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="https://github.com/vamshi12455/email-assistant-agent" target="_blank" class="project-link" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">IMAP</span>
+                            <span class="tag">Automation</span>
+                        </div>
+                        <h3>Email Assistant AI Agent</h3>
+                        <p>Smart email management agent that categorizes, prioritizes, drafts responses, and automates email workflows using natural language processing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What I Do</span>
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i> Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>React / Next.js</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>TypeScript</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>CSS / Tailwind</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="92"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Node.js / Express</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Python / Django</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>PostgreSQL / MongoDB</span>
+                                <span class="skill-percentage">87%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="87"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Git / GitHub</span>
+                                <span class="skill-percentage">93%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="93"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Docker / Kubernetes</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>AWS / Cloud Services</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="82"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Let's Connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>
+                        I'm always interested in hearing about new projects and opportunities. 
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:your.email@example.com">your.email@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Your City, Country</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-code"></i>
+                    <span>Portfolio</span>
+                </div>
+                <p class="footer-text">
+                    Designed & Built with <i class="fas fa-heart"></i> by Your Name
+                </p>
+                <div class="footer-social">
+                    <a href="https://github.com" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="mailto:your.email@example.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
